@@ -18,7 +18,7 @@ def load_data(path):
                 pass
     return df
 
-df = load_data("data/full_clean_spotify_data.csv")
+df = load_data("dataset.csv")
 st.sidebar.header("Controls")
 min_plays = st.sidebar.slider("Minimum plays to include for top lists", 1, 5, 2)
 
